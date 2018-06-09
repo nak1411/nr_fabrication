@@ -1,9 +1,16 @@
-body {
+#index body {
   padding-top: 70px;
   background: url("https://source.unsplash.com/LvOGj1X2jHE");
   background-size: cover;
   background-position: center;
   font-family: Coda;
+  color: white;
+}
+
+#gallery body {
+  padding-top: 70px;
+  font-family: Coda;
+  background: gray;
   color: white;
 }
 
