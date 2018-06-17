@@ -7,6 +7,13 @@
   color: white;
 }
 
+#about body {
+  padding-top: 0;
+  font-family: Coda;
+  background: gray;
+  color: white;
+}
+
 #gallery body {
   padding-top: 70px;
   font-family: Coda;
@@ -28,9 +35,25 @@ h3 {
   font-size: 2em;
 }
 
-#content {
+.img-responsive {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  max-height: 300px;
+  margin-bottom: 1rem;
+}
+
+#index-content {
   text-align: center;
   padding-top: 10%;
+}
+
+.page-header {
+  padding-top: 1em;
+}
+#about-content {
+  text-align: left;
+  padding-top: 1em;
 }
 
 .navbar-inverse .navbar-nav .dropdown .dropdown-menu {
