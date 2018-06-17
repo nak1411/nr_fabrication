@@ -33,8 +33,16 @@ h3 {
   padding-top: 10%;
 }
 
-.navbar-inverse .navbar-nav>li.active>a {
-  background: #404040;
+.navbar-inverse .navbar-nav .dropdown .dropdown-menu {
+  background: #222222;
+}
+
+.navbar-inverse .navbar-nav .dropdown .dropdown-menu>li>a {
+  color: white;
+}
+
+.navbar-inverse .navbar-nav .dropdown .dropdown-menu>li>a:hover {
+  background: #595959;
 }
 
 .navbar-inverse {
