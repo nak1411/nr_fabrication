@@ -1,0 +1,24 @@
+&__footer {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-color: lightgreen;
+}
+
+&__footersections{
+  text-decoration: none;
+  font-size: 2em;
+  line-height: 1em;
+  width: 100%;
+  height: auto;
+  background-color: lightcoral;
+}
+
+&__footerspan{
+  margin: auto 2em;
+}
+
+&__trade {
+  margin: .5em auto;
+}
