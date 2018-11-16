@@ -1,25 +1,29 @@
 &__navigation {
-  margin: auto 10em;
+  position: relative;
+  width: 100%;
   background-color: color(tertiary);
 }
 
 &__logo{
-  margin: 1em;
+  position: absolute;
+  top: 50%;
+  left: 10em;
+  transform: translateY(-50%);
   float: left;
   width: 10em;
   height: auto;
 }
 
 &__navlist{
-  margin: 0;
+  margin: auto 10em;
   padding: 0;
   list-style: none;
-  float: right;
-  font-size: 2em;
-  line-height: 5em;
+  text-align: right;
 }
 
 &__navitem{ 
   display: inline-block;
   margin-left: 2em;
+  font-size: 2em;
+  line-height: 5em;
 }
