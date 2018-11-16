@@ -13,6 +13,8 @@
 @import 'utilities/all';
 
 .site {
+  min-height: 100%;
+  position: relative;
   @import 'layout/all';
   @import 'components/all';
 }
