@@ -1,5 +1,25 @@
 &__navigation {
-  width: 100%;
-  height: 5em;
+  margin: auto 10em;
   background-color: color(tertiary);
+}
+
+&__logo{
+  margin: 1em;
+  float: left;
+  width: 10em;
+  height: auto;
+}
+
+&__navlist{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: right;
+  font-size: 2em;
+  line-height: 5em;
+}
+
+&__navitem{ 
+  display: inline-block;
+  margin-left: 2em;
 }
