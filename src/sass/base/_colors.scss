@@ -1,7 +1,13 @@
-$colors: ();
+$colors: (primary: rgb(20, 20, 20), secondary: rgb(110, 0, 0), tertiary: rgb(220, 220, 220));
+$fontColors: (primary: rgb(0, 0, 0), secondary: rgb(220, 220, 220));
 
 
 // Return color 
 @function color($color-name) {
-  @return map-get($colors, $color-name)
+  @return map-get($colors, $color-name);
+}
+
+// Return font color 
+@function fontColor($color-name) {
+  @return map-get($fontColors, $color-name);
 }

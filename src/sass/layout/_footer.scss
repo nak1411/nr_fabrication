@@ -3,19 +3,20 @@
   text-align: center;
   width: 100%;
   height: auto;
-  background-color: lightgreen;
+  background-color: color(secondary);
+  color: fontColor(secondary);
 }
 
-&__footersections{
+&__footersections {
   text-decoration: none;
   font-size: 2em;
   line-height: 1em;
   width: 100%;
   height: auto;
-  background-color: lightcoral;
+  background-color: color(secondary);
 }
 
-&__footerspan{
+&__footerspan {
   margin: auto 2em;
 }
 
