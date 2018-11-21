@@ -5,15 +5,10 @@
  */
 
 import '../sass/main.scss';
+import Vue from 'vue';
+import App from '../vue/App.vue';
 
-let APP = (function () {
-
-  const init = () => {
-    console.log('Hello World');
-  }
-  return {
-    init: init
-  }
-})();
-
-APP.init();
+new Vue({
+  el: ".app",
+  render: h => h(App)
+})
