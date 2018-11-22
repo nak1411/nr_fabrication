@@ -6,7 +6,6 @@
 
 // Update imports as needed per project 
 const path = require('path');
-const webpack = require('webpack');
 const {
   VueLoaderPlugin
 } = require('vue-loader')
