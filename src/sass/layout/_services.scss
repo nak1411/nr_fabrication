@@ -2,11 +2,18 @@
   text-align: left;
 }
 
-&__title--small {
-  margin: 0;
-  font-size: 2em;
+&__title {
+  margin-bottom: .5em;
+  font-size: 4em;
 }
 
 &__desc {
-  font-size: 1.5em;
+  margin: 0;
+  padding-bottom: 1em;
+  font-size: 1.2em;
+}
+
+&__aboutimg {
+  max-width: 100%;
+  height: auto;
 }

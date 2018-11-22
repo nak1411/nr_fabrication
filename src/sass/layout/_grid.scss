@@ -1,5 +1,4 @@
 &__grid--multi {
-  margin: auto 10em;
   display: grid;
   grid-template-columns: repeat(auto-fit, 20em);
   grid-gap: 1em;
@@ -8,7 +7,6 @@
 }
 
 &__grid--double {
-  margin: auto 10em;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1em;
@@ -17,7 +15,6 @@
 }
 
 &__grid--single {
-  margin: auto 10em;
   display: grid;
   grid-template-columns: 1fr;
   justify-content: center;
