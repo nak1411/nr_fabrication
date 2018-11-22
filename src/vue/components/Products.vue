@@ -1,6 +1,8 @@
 <template>
   <div id="products">
-    <h1>Products</h1>
+    <div class="site__content">
+      
+    </div>
   </div>
 </template>
 

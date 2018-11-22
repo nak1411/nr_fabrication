@@ -1,12 +1,13 @@
 <template>
   <div id="contact">
-    <h1>Contact</h1>
+    <div class="site__content">
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'contact',
+  name: "contact",
   data() {
     return {};
   }
