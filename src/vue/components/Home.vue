@@ -1,5 +1,9 @@
 <template>
     <div id="home">
+        <div class="site__loader--container">
+            <div class="site__loading">Loading</div>
+            <div class="site__loaderimg"></div>
+        </div>
         <header class="site__header">
             <div class="site__intro">
                 <h1 class="site__motto">Insert headline here.</h1>

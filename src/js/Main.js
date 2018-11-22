@@ -13,5 +13,12 @@ new Vue({
   el: "#app",
   router,
   template: '<App/>',
-  components: { App }
+  components: {
+    App
+  },
+  mounted() {
+    setTimeout(function () {
+      document.querySelector('.site').classList.add('site__loaded');
+    }, 2000);
+  },
 })
