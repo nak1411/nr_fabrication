@@ -1,21 +1,16 @@
 <template>
-<div>
-<Navigation></Navigation>
-</div>
-  
+  <div id="app">
+    <Navbar />
+    <router-view/>
+  </div>
 </template>
 
 <script>
-import Navigation from "./Navigation.vue";
+import Navbar from "./components/Navbar.vue";
 export default {
+  name: 'app',
   components: {
-    'Navigation': Navigation
-  },
-  data() {
-    return {};
+    Navbar
   }
 };
 </script>
-
-<style lang="scss">
-</style>

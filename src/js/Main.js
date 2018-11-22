@@ -7,8 +7,11 @@
 import '../sass/main.scss';
 import Vue from 'vue';
 import App from '../vue/App.vue';
+import router from '../vue/router';
 
 new Vue({
-  el: ".app",
-  render: h => h(App)
+  el: "#app",
+  router,
+  template: '<App/>',
+  components: { App }
 })
