@@ -1,0 +1,19 @@
+&__gallerytitle {
+  text-align: center;
+  margin: 0;
+  margin-top: 1em;
+  font-size: 3em;
+}
+
+&__gallerybreak {
+  background: color(secondary);
+  margin: 2em 10em;
+  height: .3em;
+  border-radius: 50%;
+}
+
+&__galleryimg {
+  max-width: 100%;
+  height: auto;
+  border: 1px color(tertiary) solid;
+}
