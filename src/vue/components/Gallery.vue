@@ -1,5 +1,5 @@
 <template>
-  <div id="products">
+  <div id="gallery">
     <div class="site__content">
 
     </div>
@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: "products",
+  name: "gallery",
   data() {
     return {};
   }

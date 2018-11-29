@@ -7,7 +7,7 @@
                     <router-link to="/about">About Us</router-link>
                 </li>
                 <li class="site__navitem">
-                    <router-link to="/products">Products</router-link>
+                    <router-link to="/gallery">Gallery</router-link>
                 </li>
                 <li class="site__navitem">
                     <router-link to="/contact">Contact Us</router-link>
