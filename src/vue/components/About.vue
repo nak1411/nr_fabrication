@@ -8,7 +8,7 @@
           <p class="site__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptatibus. Autem ab reprehenderit laudantium, nobis asperiores labore quidem animi similique ducimus quia doloribus ipsam! Eius nobis animi enim rem ratione.</p>
           <p class="site__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptatibus. Autem ab reprehenderit laudantium, nobis asperiores labore quidem animi similique ducimus quia doloribus ipsam! Eius nobis animi enim rem ratione.</p>
         </div>
-        <img class="site__aboutimg" src="/src/img/about.jpg" alt="about nr fabrication placeholder image">
+        <img class="site__aboutimg" src="/src/img/about-min.jpg" alt="about nr fabrication placeholder image">
       </section>
     </div>
   </div>

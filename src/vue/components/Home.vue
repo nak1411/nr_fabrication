@@ -43,25 +43,25 @@
 
             <section class="site__reviews site__grid--double">
                 <div class="site_cell">
-                    <p class="site__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dicta doloremque
+                    <p class="site__desc">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dicta doloremque
                         excepturi voluptatem, impedit iusto molestias distinctio corporis nulla esse voluptatibus explicabo
-                        expedita laborum animi minus quaerat neque harum! Quibusdam!</p>
+                        expedita laborum animi minus quaerat neque harum! Quibusdam!"</p>
                 </div>
 
                 <div class="site_cell">
-                    <p class="site__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi nihil
+                    <p class="site__desc">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi nihil
                         consequatur, explicabo velit iure culpa accusamus autem distinctio quaerat aspernatur rem alias hic
-                        praesentium, aperiam atque ipsa ratione. Labore, sit.</p>
+                        praesentium, aperiam atque ipsa ratione. Labore, sit."</p>
                 </div>
                 <div class="site_cell">
-                    <p class="site__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi nihil
+                    <p class="site__desc">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi nihil
                         consequatur, explicabo velit iure culpa accusamus autem distinctio quaerat aspernatur rem alias hic
-                        praesentium, aperiam atque ipsa ratione. Labore, sit.</p>
+                        praesentium, aperiam atque ipsa ratione. Labore, sit."</p>
                 </div>
                 <div class="site_cell">
-                    <p class="site__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi nihil
+                    <p class="site__desc">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi nihil
                         consequatur, explicabo velit iure culpa accusamus autem distinctio quaerat aspernatur rem alias hic
-                        praesentium, aperiam atque ipsa ratione. Labore, sit.</p>
+                        praesentium, aperiam atque ipsa ratione. Labore, sit."</p>
                 </div>
             </section>
         </main>

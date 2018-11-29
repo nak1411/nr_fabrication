@@ -1,7 +1,7 @@
 <template>
     <div id="navbar">
         <nav class="site__navigation">
-            <router-link to="/"><img class="site__logo" src="/src/img/nrfab_logo_emboss_red.png" alt="nr fabrication logo"></router-link>
+            <router-link to="/"><img class="site__logo" src="/src/img/nrfab_logo_emboss_red-min.png" alt="nr fabrication logo"></router-link>
             <ul class="site__navlist">
                 <li class="site__navitem">
                     <router-link to="/about">About Us</router-link>
