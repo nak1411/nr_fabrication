@@ -1,6 +1,6 @@
 // Media queries
 @mixin huge {
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 1050px) {
     @content;
   }
 }
@@ -12,19 +12,19 @@
 }
 
 @mixin medium {
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 700px) {
     @content;
   }
 }
 
 @mixin small {
-  @media only screen and (max-width: 350px) {
+  @media only screen and (max-width: 500px) {
     @content;
   }
 }
 
 @mixin tiny {
-  @media only screen and (max-width: 200px) {
+  @media only screen and (max-width: 350px) {
     @content;
   }
 }

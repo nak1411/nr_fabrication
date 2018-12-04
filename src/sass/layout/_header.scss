@@ -29,15 +29,15 @@
   }
 
   @include huge {
-    height: 25em;
-  }
-
-  @include large {
     height: 20em;
   }
 
-  @include medium {
+  @include large {
     height: 15em;
+  }
+
+  @include medium {
+    height: 14em;
   }
 }
 
@@ -55,13 +55,44 @@
   transform: translateY(-50%);
   width: 50%;
   color: fontColor(secondary);
+
+  @include huge {
+    left: 5em;
+    top: 40%;
+  }
 }
 
 &__motto {
+  margin: 0;
   font-size: 4em;
+
+  @include huge {
+    font-size: 3em;
+  }
+
+  @include large {
+    font-size: 2.5em;
+  }
+
+  @include medium {
+    font-size: 2em;
+  }
 }
 
 &__introdesc {
+  margin: 0;
   font-style: italic;
   font-size: 1.5em;
+
+  @include huge {
+    font-size: 1.2em;
+  }
+
+  @include large {
+    font-size: 1em;
+  }
+
+  @include medium {
+    font-size: .8em;
+  }
 }

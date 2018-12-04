@@ -5,7 +5,7 @@
   border-bottom: .5em color(secondary) solid;
 }
 
-&__logo{
+&__logo {
   position: absolute;
   top: 50%;
   left: 10em;
@@ -13,18 +13,77 @@
   float: left;
   width: 10em;
   height: auto;
+
+  @include huge {
+    left: 5em;
+  }
+
+  @include large {
+    width: 6em;
+  }
+
+  @include medium {
+    left: 2em;
+  }
+
+  @include small {
+    top: .5em;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
-&__navlist{
+&__navlist {
   margin: auto 10em;
   padding: 0;
   list-style: none;
   text-align: right;
+
+  @include huge {
+    margin: auto 5em;
+  }
+
+  @include large {
+    height: 6em;
+  }
+
+  @include medium {
+    margin: auto 2em;
+  }
+
+  @include small {
+    margin: auto 0;
+    display: flex;
+    justify-content: center;
+    height: 8em;
+  }
 }
 
-&__navitem{ 
+&__navitem {
   display: inline-block;
   margin-left: 2em;
   font-size: 2em;
   line-height: 5em;
+
+  @include huge {
+    margin-left: .5em;
+  }
+
+  @include large {
+    line-height: 3em;
+  }
+
+  @include medium {
+    font-size: 1.5em;
+    line-height: 4em;
+  }
+
+  @include small {
+    line-height: 8em;
+  }
+
+  @include tiny {
+    font-size: 1.2em;
+    line-height: 10em;
+  }
 }

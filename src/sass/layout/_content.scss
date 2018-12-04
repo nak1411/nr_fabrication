@@ -4,4 +4,8 @@
   padding-bottom: 5em;
   background-color: color(primary);
   color: fontColor(secondary);
+
+  @include huge {
+    margin: auto 5em;
+  }
 }
